@@ -1,0 +1,23 @@
+{
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Launch Program",
+                "program": "${workspaceRoot}/hello.js"
+            },
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Run hello.js",
+                "program": "${workspaceRoot}/hello.js",
+            },
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Launch Program",
+                "program": "${file}"
+            }
+        ]
+    }

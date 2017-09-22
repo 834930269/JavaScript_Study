@@ -23,14 +23,14 @@
 'use strict';
 // sort list:
 function sorttp(a,b){
-if(a>b)return 1;
-else return 0;
+	if(a>b)return 1;
+	else return 0;
 }
 var tp=document.getElementsByClassName('lang');
 var le=document.getElementById('test-list');
 
 var arr=Array.from(tp,function(x){
-return x.innerText;
+	return x.innerText;
 });
 arr.sort(sorttp);
 // 将arr里的元素重新转换为<li>元素包裹的形态
